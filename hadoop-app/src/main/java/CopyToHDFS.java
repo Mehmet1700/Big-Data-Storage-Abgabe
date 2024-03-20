@@ -10,7 +10,7 @@ public class CopyToHDFS {
         Configuration conf = new Configuration();
         try {
             FileSystem fs = FileSystem.get(new URI("hdfs://localhost:9000"), conf);
-            Path srcPath = new Path("resources/ladestationen.csv");
+            Path srcPath = new Path("/./resources/ladestationen.csv");
             Path destPath = new Path("/input/ladestationen.csv");
             fs.copyFromLocalFile(srcPath, destPath);
             System.out.println("File copied to HDFS successfully!");
