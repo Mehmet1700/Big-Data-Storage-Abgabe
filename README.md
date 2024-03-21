@@ -15,3 +15,4 @@ hdfs dfs -put /home/student/PERSISTENT/Big-Data-Storage-Abgabe/Big-Data-Storage-
 
 Die Daten sind jetzt in den Ordner input geladen.
 
+
